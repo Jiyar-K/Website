@@ -11,11 +11,4 @@ Desktop.ini # Windows desktop icon settings
 *.swo   # Vim swap files
 *.swn   # Vim swap files
 
-# Temporary or cache files
-*.tmp   # Temporary files
-*.temp  # Temporary files
-*.cache   # Cache files
-*.bak   # Backup files
 
-# Others
-*.log   # Log files
