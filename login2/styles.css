@@ -1,0 +1,363 @@
+  .home,
+  .logo {
+    text-decoration: none;
+  }
+  .logo {
+    width: 101px;
+    height: 76px;
+    background-image: url(./public/logo@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .error{
+    color: red;
+  }
+  .home {
+    position: relative;
+    line-height: 120%;
+    font-weight: 700;
+    color: inherit;
+    padding: 0px 30px;
+  }
+  .home:hover {
+    text-decoration: underline;
+  }
+  .menu-items {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .log-i,
+  .sign-u {
+    text-decoration: none;
+    border-radius: var(--br-81xl);
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) var(--padding-13xl);
+  }
+  .log-i {
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    transition: background 0.25s;
+    color: inherit;
+  }
+  .log-i:hover {
+    background-color: rgb(142, 142, 142);
+  }
+  .sign-u {
+    background-color: #000000;
+    color: var(--color-whitesmoke-100);
+  }
+  .log-i:hover,
+  .sign-u:hover {
+    transform: scale(1.05);
+  }
+  .account-buttons,
+  .menu,
+  .sign-u {
+    display: flex;
+    flex-direction: row;
+  }
+  .account-buttons {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    font-size: var(--font-size-sm);
+    color: #1e2e47;
+  }
+  .menu {
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-13xl) var(--padding-21xl);
+  }
+  
+  .profile-page {
+    width: 100%;
+    position: relative;
+    background-color:black;
+    flex-direction: column;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-mediumblue);
+    font-family: var(--font-cabin);
+  }
+
+
+
+
+
+
+
+
+
+
+  
+.frame-parent {
+    align-self: stretch;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    padding: var(--padding-13xl) var(--padding-xl);
+    box-sizing: border-box;
+    gap: 10px;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-black);
+    font-family: var(--font-cabin);
+  }
+  .account,
+  .log-in-to {
+    margin: 0;
+  }
+  .log-in-to-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 37.5px;
+  }
+  .rectangle {
+    width: 381px;
+    height: 69px;
+    position: relative;
+    background-color: var(--white);
+    border: 1px solid var(--color-gray-100);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .email-address,
+  .johndoeexamplecom {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .email-address {
+    line-height: 19px;
+    font-weight: 500;
+    min-width: 78px;
+  }
+  .johndoeexamplecom {
+    flex: 1;
+    line-height: 31.2px;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .input-values {
+    width: 333.2px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 1px 0 1.5px;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-top: -0.4px;
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray-100);
+  }
+  .inputname,
+  .rectangle1 {
+    background-color: var(--white);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .inputname {
+    align-self: stretch;
+    border: 1px solid var(--color-gray-100);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 15.3px 5px;
+    flex-shrink: 0;
+  }
+  .inputname-child {
+    width: 333.2px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    height: 31.2px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 1.5px 7.283063041541027e-13px;
+    box-sizing: border-box;
+    font-family: var(--font-zen-kaku-gothic-antique);
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray-100);
+    max-width: 100%;
+    margin-top: -0.4px;
+  }
+  .rectangle1 {
+    width: 381px;
+    height: 69px;
+    border: 1px solid var(--color-gainsboro-100);
+    display: none;
+  }
+  .google-icon,
+  .password,
+  .rectangle1 {
+    position: relative;
+    z-index: 1;
+  }
+  .password {
+    line-height: 19px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 55px;
+  }
+  .google-icon {
+    align-self: stretch;
+    line-height: 28.2px;
+    font-weight: 300;
+  }
+  .google-icon-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4.5px 0 0;
+    box-sizing: border-box;
+    min-width: 214px;
+    max-width: 100%;
+  }
+  .ex-iconeye {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .frame-group,
+  .inputname-copy-3 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: -4.9px;
+    font-size: var(--font-size-base);
+    color: #757575;
+  }
+  .inputname-copy-3 {
+    background-color: var(--white);
+    border: 1px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: var(--padding-3xs) 9px 8px 16.8px;
+    flex-shrink: 0;
+    color: var(--color-dimgray-100);
+  }
+  .btn-prytemplate-2-child {
+    height: 64px;
+    width: 380px;
+    position: relative;
+    background-color: var(--color-gray-100);
+    display: none;
+    max-width: 100%;
+  }
+  .proceed {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 29px;
+    font-weight: 500;
+    font-family: var(--font-zen-kaku-gothic-antique);
+    color: var(--white);
+    text-align: center;
+    display: inline-block;
+    min-width: 72px;
+    z-index: 1;
+  }
+  .btn-prytemplate-2 {
+    cursor: pointer;
+    border: 0;
+    padding: 18px var(--padding-xl) 17px;
+    background-color: black;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .btn-prytemplate-2:hover {
+    background-color: #545454;
+  }
+  .input-fields,
+  .login-details {
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .input-fields {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.3px;
+    text-align: left;
+    font-size: var(--font-size-2xs-3);
+    color: #424242;
+  }
+  .login-details {
+    width: 457px;
+    box-shadow: 0 82px 40px -14px rgba(100, 100, 100, 0.08);
+    background-color: var(--white);
+    border: 1px solid var(--color-gainsboro-100);
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: var(--padding-15xl) 37px var(--padding-15xl) 38px;
+    gap: 21px;
+  }
+  .log-in,
+  .login-details,
+  .login-details-wrapper {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .login-details-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    max-width: 100%;
+    text-align: center;
+    font-size: 31.3px;
+    color: var(--color-black);
+    font-family: var(--font-zen-kaku-gothic-antique);
+  }
+  .log-in {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 0 243.5px;
+    gap: 148px;
+    background-image: url(./public/log-in@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  
+  
+  
+  

@@ -5,18 +5,28 @@ new Vue({
     lastname: '',
     email: '',
     phoneNumber: '',
+    message: '',
+    nameError: '',
+    lastnameError: '',
     emailError: '',
-    phoneError: ''
+    phoneError: '',
+    messageError: ''
   },
   methods: {
     clearForm() {
       this.name = '';
-      this.lastname = '',
+      this.lastname = '';
       this.email = '';
       this.phoneNumber = '';
+      this.message = '';
+      this.nameError = '';
+      this.lastnameError = '';
       this.emailError = '';
       this.phoneError = '';
+      this.messageError = '';
+    
     },
+    
     validatePhoneNumber(number) {
       return /^\d{10}$/.test(number);
     },
@@ -24,19 +34,40 @@ new Vue({
       return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     },
     submitForm() {
+      this.nameError = '';
+      this.lastnameError = '';
       this.emailError = '';
       this.phoneError = '';
+      this.messageError = '';
+      
 
-      if (!this.validatePhoneNumber(this.phoneNumber)) {
-        this.phoneError = 'Please enter a valid 10-digit phone number.';
-        return;
+      if (!this.name) {
+        this.nameError = 'Please enter your first name.';
       }
 
-      if (!this.validateEmail(this.email)) {
+      if (!this.lastname) {
+        this.lastnameError = 'Please enter your last name.';
+      }
+
+      if (!this.email) {
+        this.emailError = 'Please enter your email address.';
+      } else if (!this.validateEmail(this.email)) {
         this.emailError = 'Please enter a valid email address.';
-        return;
       }
-      window.location.href = 'submitted.html?name=' + encodeURIComponent(this.name) + '&email=' + encodeURIComponent(this.email) + '&phoneNumber=' + encodeURIComponent(this.phoneNumber) + '&hometown=' + encodeURIComponent(this.hometown);
+
+      if (!this.phoneNumber) {
+        this.phoneError = 'Please enter your phone number.';
+      } else if (!this.validatePhoneNumber(this.phoneNumber)) {
+        this.phoneError = 'Please enter a valid 10-digit phone number.';
+      }
+
+      if (!this.message) {
+        this.messageError = 'Please enter your message.';
+      }
+
+      if (!this.nameError && !this.lastnameError && !this.emailError && !this.phoneError && !this.messageError) {
+        window.location.href = 'submitted.html?name=' + encodeURIComponent(this.name) + '&lastname=' + encodeURIComponent(this.lastname) + '&email=' + encodeURIComponent(this.email) + '&phoneNumber=' + encodeURIComponent(this.phoneNumber) + '&message=' + encodeURIComponent(this.message);
+      }
     }
   }
 });

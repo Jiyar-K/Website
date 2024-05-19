@@ -1,0 +1,61 @@
+#mobile-menu-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .home {
+        padding: 0px 14px;
+        font-size: 16px;
+    }
+
+    .services .column1 {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .location {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .menu-items {
+        display: none;
+    }
+
+    .account-buttons {
+        display: none;
+    }
+
+    #mobile-menu-icon {
+        display: block;
+        width: 100px;
+    }
+
+    .menu-items.open {
+        transition: all 0.25s ease 0s;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .intro-section {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .bc, .founded {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .sports-header {
+        font-size: 40px;
+    }
+    
+}

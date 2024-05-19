@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submitted Form</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <h1>Submitted Form</h1>
+    <div>
+      <label>First Name:</label>
+      <span>{{ name }}</span>
+    </div>
+    <div>
+      <label>Last Name:</label>
+      <span>{{ lastname }}</span>
+    </div>
+    <div>
+      <label>Email:</label>
+      <span>{{ email }}</span>
+    </div>
+    <div>
+      <label>Phone Number:</label>
+      <span>{{ phoneNumber }}</span>
+    </div>
+    <div>
+      <label>Message:</label>
+      <span>{{ message }}</span>
+    </div>
+  </div>
+
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        name: '',
+        lastname: '',
+        email: '',
+        phoneNumber: '',
+        message: ''
+      },
+      mounted() {
+        const params = new URLSearchParams(window.location.search);
+        this.name = params.get('name');
+        this.lastname = params.get('lastname');
+        this.email = params.get('email');
+        this.phoneNumber = params.get('phoneNumber');
+        this.message = params.get('message');
+      }
+    });
+  </script>
+</body>
+</html>
