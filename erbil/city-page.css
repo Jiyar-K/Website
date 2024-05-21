@@ -1,0 +1,301 @@
+.bg-icon {
+  width: 772px;
+  position: absolute;
+  margin: 0 !important;
+  top: 51px;
+  left: calc(50% - 196px);
+  height: 285.2px;
+  z-index: 0;
+}
+.description-text-comes,
+.erbil {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.description-text-comes {
+  font-size: 18px;
+  line-height: 160%;
+  font-family: Inter;
+}
+.icon4 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.watch-demo {
+  position: relative;
+  line-height: 120%;
+}
+.column-4,
+.watch-button {
+  display: flex;
+  justify-content: flex-start;
+}
+.watch-button {
+  text-decoration: none;
+  border-radius: 100px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #222831;
+  font-family: Cabin;
+}
+.column-4 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+  z-index: 1;
+}
+.citadel-image-1 {
+  width: 272px;
+  position: relative;
+  border-radius: 32px;
+  height: 300px;
+  object-fit: cover;
+}
+.images-stack-1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.citadel-image-3 {
+  width: 272px;
+  position: relative;
+  border-radius: 32px;
+  height: 396.5px;
+  object-fit: cover;
+}
+.images-stack-2 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.city-page,
+.column-8 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.column-8 {
+  flex-shrink: 0;
+  padding: 40px 0;
+  gap: 30px;
+  z-index: 2;
+}
+.city-page {
+  position: relative;
+  padding: 80px 10px;
+}
+.main-container {
+  flex-shrink: 0;
+  gap: 10px;
+}
+.city-page {
+  width: 100%;
+  background-image: url(./public/city-page@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: 128px;
+  color: #fff;
+  font-family: "Spicy Rice";
+}
+
+.display-flex-icon {
+  width: 444.5px;
+  height: 100.8px;
+  object-fit: contain;
+}
+.shape-icon {
+  width: 18px;
+  position: relative;
+  height: 12px;
+}
+.prev-button {
+  border-radius: 100px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 38px;
+  cursor: pointer;
+}
+.shape-icon1 {
+  width: 17.6px;
+  position: relative;
+  height: 11.9px;
+}
+.display-flex,
+.next-button {
+  display: flex;
+  justify-content: center;
+}
+.next-button {
+  border-radius: 100px;
+  background-color: #005f15;
+  flex-direction: column;
+  align-items: center;
+  padding: 44px;
+  cursor: pointer;
+}
+.display-flex {
+  width: 232px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 32px;
+}
+.slider-main-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider-item-image {
+  width: 350px;
+  position: relative;
+  height: 350px;
+  object-fit: cover;
+}
+.jalil-khayat-mosque {
+  position: relative;
+  line-height: 120%;
+}
+.erbil-erbil-governorate {
+  position: relative;
+  font-size: 18px;
+  line-height: 160%;
+  font-family: Inter;
+  color: rgba(25, 24, 37, 0.75);
+  text-decoration: none;
+}
+.vector-icon12 {
+  width: 20px;
+  position: relative;
+  height: 19px;
+}
+.slider-info,
+.stars {
+  display: flex;
+  justify-content: flex-start;
+}
+.stars {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  color: #005f15;
+}
+.slider-info {
+  align-self: stretch;
+  box-shadow: 0 801px 224px transparent, 0 513px 205px rgba(0, 0, 0, 0.01),
+    0 288px 173px rgba(0, 0, 0, 0.03), 0 128px 128px rgba(0, 0, 0, 0.04),
+    0 32px 71px rgba(0, 0, 0, 0.05), 0 0 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 32px;
+}
+
+.slider-info a {
+  text-decoration: none;
+  color: black;
+}
+.item15,
+.slider-main-row1 {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.item15 {
+  border-radius: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.slider-main-row1 {
+  flex-direction: row;
+  align-items: center;
+  padding: 34px 10px 10px;
+  box-sizing: border-box;
+}
+.city-page-slider,
+.slider-main-container {
+  overflow: hidden;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.slider-main-container {
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.city-page-slider {
+  width: 100%;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: 23px;
+  color: #191825;
+  font-family: Cabin;
+}
+/* styles.css */
+
+.gta {
+  display: none; /* Hidden by default */
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.4); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gta-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+  max-width: 600px; 
+  height: auto; 
+  max-height: 90%; 
+  overflow-y: auto; 
+}
+
+.kapat {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.kapat:hover,
+.kapat:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

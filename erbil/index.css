@@ -557,17 +557,17 @@
   width: 50%;
   position: absolute;
   margin: 0 !important;
-  top: calc(46% - 154.5px);
-  left: calc(60% - 200.5px);
+  top: calc(50% - 154.5px);
+  left: calc(50% - 200.5px);
   border-radius: var(--br-481xl);
   height: auto;
   object-fit: cover;
   z-index: 3;
 }
 .village-image-icon {
-  width: 500px;
-  top: calc(45% - 369.5px);
-  left: calc(30.31% - 150px);
+  width: 50%;
+  top: calc(50% - 369.5px);
+  left: calc(50% - 76px);
   height: auto;
   z-index: 3;
 }

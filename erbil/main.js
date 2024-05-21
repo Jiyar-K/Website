@@ -15,16 +15,4 @@ document.addEventListener('DOMContentLoaded', function () {
             menuItems.style.display = 'none';
         }
     });
-    var scrollButton = document.getElementById('scroll-button');
-
-    // Add click event listener to the scroll button
-    if (scrollButton) { // Ensure scrollButton exists
-        scrollButton.addEventListener('click', function() {
-            // Scroll down by 800 pixels (or any desired amount)
-            window.scrollBy({
-                top: 710, // The number of pixels to scroll down
-                behavior: 'smooth' // Smooth scrolling
-            });
-        });
-    }
 });
